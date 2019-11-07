@@ -3,9 +3,9 @@ import React from 'react';
 function Header(props) {
 
     return (
-        <div className='App-header'>
+        <div>
             <h1>A.P.O.D.</h1>
-            <h2>{props.date}</h2>
+            <h2>Date: {props.date}</h2>
         </div>
     )
 }

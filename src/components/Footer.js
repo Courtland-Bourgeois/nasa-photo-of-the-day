@@ -3,8 +3,10 @@ import React from 'react';
 function Footer(props) {
 
     return (
-        <div className='App-link'>
-            
+        <div>
+            <nav>
+                <a href='https://www.nasa.gov/'>NASA SITE</a>
+            </nav>
         </div>
     )
 }
